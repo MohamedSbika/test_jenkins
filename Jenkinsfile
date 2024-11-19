@@ -21,5 +21,10 @@ pipeline{
                 echo "hello .."
             }
         }
+        stage('omar'){
+            steps {
+                echo "omar zorgati"
+            }
+        }
     }
 }
